@@ -1,6 +1,6 @@
 import { getCombinedRating } from './src/get-combined-rating';
 
-const insurerName = 'Axa';
+const insurerName = process.argv[2];
 
 const rating = getCombinedRating(insurerName);
 
